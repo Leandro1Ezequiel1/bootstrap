@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    position: relative;
+    height: 100px;
+    width: 100px;
+
+}
+.container-fluid{
+    background-color: rgb(220, 236, 72);
+}
+.img1{
+    position: relative;
+    left: 168px;
+}
+footer{
+    text-align:center;
+    background-color: brown;
+    color: black;
+}
+.lista{
+    background-color: aqua;
+    text-align: center;
+}
+.row{
+    margin: 30px;
+    gap: 2px;
+    background-color: cornsilk;
+}
+.card-body {
+    background-color: chartreuse;
+}
+.card{
+    background-color: black;
+}
+.productos{
+    text-align: center;
+    background-color: bisque;
+}
+main{
+    background-color:cornsilk;
+}
