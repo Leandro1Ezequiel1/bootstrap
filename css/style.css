@@ -37,10 +37,73 @@ footer{
 .card{
     background-color: black;
 }
-.productos{
+h1{
     text-align: center;
     background-color: bisque;
+    height: 52px;
+    position: relative;
+    top: -8px;
 }
 main{
     background-color:cornsilk;
+}
+.w-101 {
+    width: 64%;
+    height: 470px;
+    margin: auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    height: 20%;
+    background-color: black;
+    position: absolute;
+    top: 189px;
+    right: 243px;
+}
+.carousel-control-prev{
+    left: 18%;
+    background-color: black;
+}
+.carousel {
+    position: relative;
+    top: -8px;
+    background-color: darksalmon;
+}
+h2{
+    background-color: bisque;
+    text-align: center;
+}
+.des{
+    background-color: darkkhaki;
+    text-align: center;
+}
+.frame{
+    position: relative;
+    left: 380px;
+    top: 2px;
+}
+
+.row g-3 {
+    flex-direction: column;
+    display: block;
+
+}
+.form-control{
+    width: 43%;
+    position: relative;
+    left: 406px;
+    }
+label {
+    display: inline;
+    position: relative;
+    left: 668px;
+}
+button{
+    position: relative;
+    height: 40px;
+    left: 668px;
+    border-radius: 2px;
+    color: aqua;
+    background-color: black;
 }
