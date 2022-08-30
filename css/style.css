@@ -1,3 +1,5 @@
+
+/* mobile firts*{ */
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@
 }
 .img1{
     position: relative;
-    left: 168px;
+    
 }
 footer{
     text-align:center;
@@ -99,11 +101,49 @@ label {
     position: relative;
     left: 668px;
 }
-button{
-    position: relative;
-    height: 40px;
-    left: 668px;
-    border-radius: 2px;
-    color: aqua;
-    background-color: black;
+
+@media(min-width:320px){
+    .logo{
+        width: 25%;
+        left: -4%;
+    }
+    .container-fluid{
+        width: 100%;
+    }
+    .navbar-toggler {
+        position: relative;
+        left: 2%;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .carousel{
+        display: grid;
+        width: 100%;
+    }
+    .imagenGrilla{
+        width: 100%;
+    }
+    .frame{
+        width: 100%;
+        left: 0%;
+    }
+    .form-label{
+        background-color: aquamarine;
+    }    
+    .form-control{
+        width: 100%;
+        left: 0%;
+    }
+    label{
+        width: 2%;
+        left: 0%;
+    }
+    button{    
+        left: 41%;
+        position: relative;
+        background-color: coral;
+    }
+        
+    
 }
