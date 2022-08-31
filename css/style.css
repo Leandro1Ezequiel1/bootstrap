@@ -1,162 +1,170 @@
 
 /* mobile firts*{ */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.logo{
-    position: relative;
-    height: 100px;
-    width: 100px;
-
-}
-.container-fluid{
-    background-color: rgb(220, 236, 72);
-}
-.img1{
-    position: relative;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     
-}
-footer{
-    text-align:center;
-    background-color: brown;
-    color: black;
-}
-.lista{
-    background-color: aqua;
-    text-align: center;
-}
-.row{
-    margin: 30px;
-    gap: 2px;
-    background-color: cornsilk;
-}
-.card-body {
-    background-color: chartreuse;
-}
-.card{
-    background-color: black;
-}
-h1{
-    text-align: center;
-    background-color: bisque;
-    height: 52px;
-    position: relative;
-    top: -8px;
-}
-main{
-    background-color:cornsilk;
-}
-.w-101 {
-    width: 64%;
-    height: 470px;
-    margin: auto;
-}
-
-.carousel-control-next, .carousel-control-prev {
-    width: 5%;
-    height: 20%;
-    background-color: black;
-    position: absolute;
-    top: 189px;
-    right: 243px;
-}
-.carousel-control-prev{
-    left: 18%;
-    background-color: black;
-}
-.carousel {
-    position: relative;
-    top: -8px;
-    background-color: darksalmon;
-}
-h2{
-    background-color: bisque;
-    text-align: center;
-}
-.des{
-    background-color: darkkhaki;
-    text-align: center;
-}
-.frame{
-    position: relative;
-    left: 380px;
-    top: 2px;
-}
-
-.row g-3 {
-    flex-direction: column;
-    display: block;
-
-}
-.form-control{
-    width: 43%;
-    position: relative;
-    left: 406px;
-    }
-label {
-    display: inline;
-    position: relative;
-    left: 668px;
-}
-
-@media(min-width:320px){
     .logo{
-        width: 60%;
-        left: -11%;
-    }
-    .img1{
-        width:100% ;
+        position: relative;
+        height: 100px;
+        width: 100px;
+    
     }
     .container-fluid{
-        width: 100%;
+        background-color: rgb(220, 236, 72);
     }
-    .navbar-toggler {
+    .img1{
         position: relative;
-        left: 2%;
-    }
-    .navbar-brand{
-        display: none;
-    }
-    .carousel{
-        display: grid;
-        width: 100%;
-    }
-    .imagenGrilla{
-        width: 100%;
-    }
-    .frame{
-        width: 100%;
-        left: 0%;
-    }
-    .form-label{
-        background-color: aquamarine;
-    }    
-    .form-control{
-        width: 100%;
-        left: 0%;
-    }
-    label{
-        width: 2%;
-        left: 0%;
-    }
-    button{    
-        left: 41%;
-        position: relative;
-        background-color: coral;
-    }
         
-    
-}
-@media(min-width:600px){
- .card col-1{
-    width:46% ;
+    }
+    footer{
+        text-align:center;
+        background-color: brown;
+        color: black;
+    }
+    .lista{
+        background-color: aqua;
+        text-align: center;
     }
     .row{
-    width: 100%;
-    margin: 0px;
-    gap: 23px;
+        margin: 30px;
+        gap: 2px;
+        background-color: cornsilk;
     }
- }
+    .card-body {
+        background-color: chartreuse;
+    }
+    .card{
+        background-color: black;
+    }
+    h1{
+        text-align: center;
+        background-color: bisque;
+        height: 52px;
+        position: relative;
+        top: -8px;
+    }
+    main{
+        background-color:cornsilk;
+    }
+    .w-101 {
+        width: 64%;
+        height: 470px;
+        margin: auto;
+    }
+    
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+        height: 20%;
+        background-color: black;
+        position: absolute;
+        top: 189px;
+        right: 243px;
+    }
+    .carousel-control-prev{
+        left: 18%;
+        background-color: black;
+    }
+    .carousel {
+        position: relative;
+        top: -8px;
+        background-color: darksalmon;
+    }
+    h2{
+        background-color: bisque;
+        text-align: center;
+    }
+    .des{
+        background-color: darkkhaki;
+        text-align: center;
+    }
+    .frame{
+        position: relative;
+        left: 380px;
+        top: 2px;
+    }
+    
+    .row g-3 {
+        flex-direction: column;
+        display: block;
+    
+    }
+    .form-control{
+        width: 43%;
+        position: relative;
+        left: 406px;
+        }
+    label {
+        display: inline;
+        position: relative;
+        left: 668px;
+    }
+    
+    @media(min-width:320px){
+        .logo{
+            width: 60%;
+            left: -11%;
+        }
+        .img1{
+            width:100% ;
+        }
+        .container-fluid{
+            width: 100%;
+        }
+        .navbar-toggler {
+            position: relative;
+            left: 2%;
+        }
+        .navbar-brand{
+            display: none;
+        }
+        .carousel{
+            display: grid;
+            width: 100%;
+        }
+        .imagenGrilla{
+            width: 100%;
+        }
+        .frame{
+            width: 100%;
+            left: 0%;
+        }
+        .form-label{
+            background-color: aquamarine;
+        }    
+        .form-control{
+            width: 100%;
+            left: 0%;
+        }
+        label{
+            width: 2%;
+            left: 0%;
+        }
+        button{    
+            left: 41%;
+            position: relative;
+            background-color: coral;
+        }
+            
+        
+    }
+    @media(min-width:600px){
+     .card col-1{
+        width:46% ;
+        }
+        .row{
+        width: 100%;
+        margin: 0px;
+        gap: 23px;
+        }
+     }
+     @media(min-width:768px){
+        .logo {
+            width: 80%;
+            left: -12%;
+           }
+           
+    }
+    
