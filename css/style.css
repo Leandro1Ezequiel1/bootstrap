@@ -104,8 +104,11 @@ label {
 
 @media(min-width:320px){
     .logo{
-        width: 25%;
-        left: -4%;
+        width: 60%;
+        left: -11%;
+    }
+    .img1{
+        width:100% ;
     }
     .container-fluid{
         width: 100%;
@@ -147,3 +150,13 @@ label {
         
     
 }
+@media(min-width:600px){
+ .card col-1{
+    width:46% ;
+    }
+    .row{
+    width: 100%;
+    margin: 0px;
+    gap: 23px;
+    }
+ }
